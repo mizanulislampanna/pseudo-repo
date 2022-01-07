@@ -1,0 +1,33 @@
+div{
+    margin-top: 30px;
+}
+.a{
+    margin: 30px;
+    padding: 10px 40px;
+    color: white;
+    background-color: lightgreen;
+    font-weight:bold;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+.a:hover{
+    color: yellow;
+    background-color:purple ;
+    border: 3px solid red;
+    border-radius: 10px 30px 10px 30px;
+    transition: 1s;
+}
+.middle-one:focus{
+    color: red;
+    font-weight: blue;
+}
+a:visited{
+    color: red;
+}
+li:first-child{
+    color: blue;
+}
+li:nth-child(2n-1){
+    color: pink;
+}
